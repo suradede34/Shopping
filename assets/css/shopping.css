@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui;
+    background-color: #03111b;
+}
+.productList{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 15px;
+}
+.product-card{
+    background-color: rgb(202, 230, 245);
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.product-card img{
+    width: 100%;
+    display: block;
+}
+.product-card h4{
+    background-color: rgb(64, 130, 218);
+    padding: 7px 10px;
+}
+.product-card h3{
+    color: rgb(236, 168, 9);
+}
+.product-footer{
+    color: rgb(255, 72, 0);
+}
+.product-tags{
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    flex-wrap: nowrap;
+}
